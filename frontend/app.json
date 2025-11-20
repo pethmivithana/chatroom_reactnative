@@ -5,18 +5,20 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-        "androidStatusBar": {
+    "androidStatusBar": {
       "translucent": false,
       "hidden": false,
       "backgroundColor": "#007AFF"
     },
-     "androidNavigationBar": {
+    "androidNavigationBar": {
       "visible": "immersive"
     },
     "splash": {
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -28,6 +30,20 @@
     "plugins": [
       "expo-router"
     ],
-    "scheme": "chatapp"
+    "scheme": "chatapp",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "affac57d-3915-4103-8457-bf94af9416b3"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/affac57d-3915-4103-8457-bf94af9416b3"
+    }
   }
 }
