@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "ChatApp",
+    "slug": "chat-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+        "androidStatusBar": {
+      "translucent": false,
+      "hidden": false,
+      "backgroundColor": "#007AFF"
+    },
+     "androidNavigationBar": {
+      "visible": "immersive"
+    },
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "chatapp"
+  }
+}

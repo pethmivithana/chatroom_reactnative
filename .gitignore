@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build outputs
+dist/
+build/
+.expo/
+web-build/
+
+# Environment
+.env
+.env.local
+*.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Database (if any local DB files)
+*.db
+*.sqlite
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Android/iOS builds
+android/app/build/
+ios/build/
+*.apk
+*.aab
